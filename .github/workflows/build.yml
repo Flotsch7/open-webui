@@ -29,4 +29,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository_owner,, }}/open-webui:latest
+          tags: ghcr.io/${{ github.repository_owner | toLower }}/open-webui:latest
